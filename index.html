@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="pfs.css">
+    <title>Pierre,feuille,ciseau</title>
 </head>
 <body>
-    
+    <h1> Pierre, feuille, ciseaux</h1>
+    <div class="container">
+        <h2>Choisissez la pierre, la feuille ou les ciseaux</h2>
+        </br>
+        </br>
+        <div class="arme">
+            <div class="pierre">
+                <button id = "pierreid">
+                    <img src="images/pierre.png"  alt="pierre" />
+                </button>    
+                </div>
+            <div class="feuille">
+               <button id = "feuilleid">
+                    <img src="images/feuille.jpeg" alt="feuille" />
+               </button>
+                </div>
+            <div class="ciseaux">
+                <button id = "ciseauxid">
+                    <img src="images/ciseaux-bouts-pointus.jpg" alt="ciseaux" />
+                </button>    
+                </div>
+        </div>
+        </br>
+        </br>
+        </br>
+
+        <h2 >Score Joueur= <span id ="score">0</span></h2>
+        <h2 >Score IA = <span id ="scoreia">0</span></h2>
+    </div>
+    <script src="pfs.js"></script>
 </body>
 </html>

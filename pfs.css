@@ -1,0 +1,36 @@
+body{
+    background:url('images/playground1.jpg');
+    background-size: auto;
+    color: chocolate;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline ;
+    color: blueviolet;
+}
+
+h2{
+    text-align : center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.arme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    background-color: white;
+}
+
+img{
+    width: 142px;
+    height: 142px;
+}
